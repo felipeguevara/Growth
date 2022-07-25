@@ -10,7 +10,6 @@ from analystcommunity import read_connection_data_warehouse
 
 def data_ventas_query(ciudad, tipo_cambio, desde, hasta, tipo_negocio):
     """
-    Owner: Tomas
     Está función trae la data de ventas, para segmentos de restaurantes, para una ciudad en un rango de fecha determinado.
     
     Argumentos:
@@ -100,7 +99,6 @@ def data_ventas_query(ciudad, tipo_cambio, desde, hasta, tipo_negocio):
     return dataframe
 def data_ventas_query_full(desde, hasta, tipo_negocio):
     """
-    Owner: Andres
     Está función trae la data de ventas, para segmentos de restaurantes, para una ciudad en un rango de fecha determinado.
     
     Argumentos:
@@ -199,7 +197,6 @@ def data_ventas_query_full(desde, hasta, tipo_negocio):
 
 def users_birthday(ciudad):
     """
-    Owner: Tomas
     Esta función busca, en el historico de ordenes de los usuarios cuando se realizó la primera orden. Esta fecha será el birthday
     del usuario
     
@@ -250,7 +247,6 @@ def users_birthday(ciudad):
 
 def sacar_non_buyers(data_ventas, filtros, especificar_rango="No"):
     """
-    Owner: Tomas
     Esta función permite sacar la lista de customers nonbuyers de categorias, subcategorias o skus especificos.
     
     Argumentos:
@@ -354,7 +350,6 @@ def sacar_non_buyers_plus_plt(data_ventas, filtros, especificar_rango="No"):
 
 def asignar_cuartil(data_ventas, lista_customer_id=None):
     """
-    Owner: Tomas
     Esta función permite segmentar los clientes, en función de la data de ventas para un periodo determinado, en el cuartil al que
     pertenecen. Si se especifica una lista de clientes, el analisis se hará solo para esos clientes; en caso contrario se hará para
     todos los clientes que compraron en el periodo de la data de ventas.
@@ -419,7 +414,6 @@ def analizar_top_productos(data_ventas):
 
 def productos_correlacionados(data_ventas, feature, lista):
     """
-    Owner: Tomas
     Está función permite ver que productos se relacionan, orden a orden, con la compra de una determinada categoria o subcategoria.
     
     Argumentos:
@@ -448,7 +442,6 @@ def productos_correlacionados(data_ventas, feature, lista):
 
 def dict_cliente_email_from_ventas(data_ventas):
     """
-    Owner: Tomas
     Esta función pasa de customer_id al último email_address
     
     Argumentos:
@@ -463,7 +456,6 @@ def dict_cliente_email_from_ventas(data_ventas):
 
 def query_para_retention_analysis(ciudad, tipo_cambio, desde, hasta, tipo_negocio):
     """
-    Owner: Tomas
     Esta función es una abstracción de la función data_ventas_query agregando el registro de campañas aplicadas por lineas de orden. No se recomienda usar está función para reemplazar la primera pues hay algunas pequeñas inconsistencia en la data (En caso de arreglar la inconsistencia se recomienda modificar data_ventas_query y agregar las columnas de ajustes por campañas).
     
     Argumentos:
@@ -544,7 +536,6 @@ def query_para_retention_analysis(ciudad, tipo_cambio, desde, hasta, tipo_negoci
 
 def analisis_retention_campannas(data_ventas, level="subcat", especificar_fechas=None):
     """
-    Owner: Tomás
     Esta función se encarga de analizar la retención de la campañas (se entiende que un cliente es retenido cuando (i) convirtió
     en la campaña y (ii) volvió a comprar productos dentro de la misma subcategoría o categoría en la que había convertido
     sin necesidad de alguna campaña).
@@ -605,7 +596,6 @@ def analisis_retention_campannas(data_ventas, level="subcat", especificar_fechas
 
 def users_birthday_javier_souza():
     """
-    Owner: Tomas
     Esta función busca, en el historico de ordenes de los usuarios cuando se realizó la primera orden. Esta fecha será el birthday
     del usuario
     
@@ -656,7 +646,6 @@ def users_birthday_javier_souza():
 
 def sacar_buyers_below_avg(data_ventas, filtros, especificar_rango="No"):
     """
-    Owner: Tomas
     Esta función permite sacar la lista de customers buyers de categorias, subcategorias o skus especificos.
     Estos buyers son compradores por debajo del promedio.
     
@@ -700,7 +689,6 @@ def sacar_buyers_below_avg(data_ventas, filtros, especificar_rango="No"):
 
 def sacar_buyers_below_median(data_ventas, filtros, especificar_rango="No"):
     """
-    Owner: Tomas
     Esta función permite sacar la lista de customers buyers de categorias, subcategorias o skus especificos.
     Estos buyers son compradores por debajo de la mediana.
     
@@ -744,7 +732,6 @@ def sacar_buyers_below_median(data_ventas, filtros, especificar_rango="No"):
 
 def sacar_buyers(data_ventas, filtros, especificar_rango="No"):
     """
-    Owner: Andres
     Esta función permite sacar la lista de customers buyers de categorias, subcategorias o skus especificos.
     
     

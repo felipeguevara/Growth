@@ -39,7 +39,6 @@ dw = DataWarehouse()
 
 def run_customQuery(query):
     """
-    Owner: Andrés Solano 
     Esta función corre el query que entre como parametro en el data warehouse
     
     Argumentos:
@@ -57,7 +56,6 @@ def run_customQuery(query):
 
 def solicitar_query_as_df(api_key, query_id):
     """
-    Owner: Andrés Solano 
     Esta función corre un query creado en redash
     
     Argumentos:
@@ -100,7 +98,6 @@ def solicitar_query_as_df(api_key, query_id):
 
 def query_check_segmentos():
     """
-    Owner: Gabo Moreno 
     Esta función extrae la data de la primera orden
     
     """
@@ -127,7 +124,6 @@ def query_check_segmentos():
 
 def MS_corregidos(base,business_type_restaurante):
     """
-    Owner: Gabo Moreno 
     Esta función filtro a los clientes MS correcto
     
     """
@@ -189,7 +185,6 @@ def clean_words(tokens):
 def counter_words(df,ngrama):
     
     """
-    Owner: Gabo Moreno 
     Esta función realiza el conteo de palabras
     
     df: base de datos
@@ -211,7 +206,6 @@ def counter_words(df,ngrama):
 
 def MS_corregidos_2(base):
     """
-    Owner: Gabo Moreno 
     Esta función filtro a los clientes MS correcto
     
     """
@@ -236,7 +230,6 @@ def MS_corregidos_2(base):
 def clean_words_only_string(tokens):
     
     """
-    Owner: Gabo Moreno 
     Esta función limpia los tokens
     
     """
@@ -260,7 +253,6 @@ def clean_words_only_string(tokens):
 def clean_words_only_stop_words(tokens):
     
     """
-    Owner: Gabo Moreno 
     Esta función limpia los tokens
     
     """

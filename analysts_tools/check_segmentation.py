@@ -11,7 +11,6 @@ from analystcommunity import read_connection_data_warehouse
 
 def run_customQuery(query):
     """
-    Owner: Andrés Solano 
     Esta función corre el query que entre como parametro en el data warehouse
     
     Argumentos:
@@ -25,7 +24,6 @@ def run_customQuery(query):
 
 def solicitar_query_as_df(api_key, query_id):
     """
-    Owner: Andrés Solano 
     Esta función corre un query creado en redash
     
     Argumentos:
@@ -67,7 +65,6 @@ def solicitar_query_as_df(api_key, query_id):
 
 def query_info_first_order(desde,hasta):
     """
-    Owner: Gabo Moreno 
     Esta función extrae la data de la primera orden
     
     """
@@ -569,7 +566,6 @@ inner join agrupacion_skus  on (agrupacion_skus.first_order=agrupacion_orden.fir
 
 def query_info_first_order_posterior(desde,hasta,TIME,timeline):
     """
-    Owner: Gabo Moreno 
     Esta función extrae la data de la primera orden
     
     """
@@ -1072,7 +1068,6 @@ inner join agrupacion_skus  on (agrupacion_skus.customer_id=agrupacion_orden.cus
 
 def query_info_first_order_diosito(desde,hasta):
     """
-    Owner: Gabo Moreno 
     Esta función extrae la data de la primera orden
     
     """
@@ -1168,7 +1163,6 @@ select distinct customer_id
 
 def query_base_formato(desde,hasta):
     """
-    Owner: Gabo Moreno 
     Esta función extrae la data de la primera orden
     
     """
@@ -1184,7 +1178,6 @@ def query_base_formato(desde,hasta):
 
 def query_check_segmentos():
     """
-    Owner: Gabo Moreno 
     Esta función extrae la data de la primera orden
     
     """
@@ -1209,7 +1202,6 @@ def query_check_segmentos():
 
 def query_ciudades_data():
     """
-    Owner: Gabo Moreno 
     Esta función extrae la data de la primera orden
     
     """

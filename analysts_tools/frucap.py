@@ -15,7 +15,6 @@ from analystcommunity import read_connection_data_warehouse
 ###################################################################################################################################################################################
 def data_ventas_query(ciudad, tipo_cambio, desde, hasta, tipo_negocio):
     """
-    Owner: Tomas
     Está función trae la data de ventas, para segmentos de restaurantes, para una ciudad en un rango de fecha determinado.
     
     Argumentos:
@@ -107,7 +106,6 @@ def data_ventas_query(ciudad, tipo_cambio, desde, hasta, tipo_negocio):
 ###################################################################################################################################################################################
 def run_customQuery(query):
     """
-    Owner: Andrés Solano 
     Esta función corre el query que entre como parametro en el data warehouse
     
     Argumentos:
@@ -173,7 +171,6 @@ def get_fresh_query_result(redash_url,query_id,api_key,params,pause):
 ###################################################################################################################################################################################
 def data_trans_comp_time_previous_query_vboletos(TIME):
     """
-    Owner: Gabo Moreno
     Está función trae la data de ventas, para segmentos de restaurantes, para una ciudad en un rango de fecha determinado.
     
     Argumentos:
@@ -701,7 +698,6 @@ inner join agrupacion_skus  on (agrupacion_skus.order_boleto=agrupacion_orden.or
 
 def data_trans_order_boleto():
     """
-    Owner: Gabo Moreno
     Está función trae la data de ventas, para segmentos de restaurantes, para una ciudad en un rango de fecha determinado.
     
     Argumentos:
@@ -1571,7 +1567,6 @@ SELECT cast(a.uid as bigint) as uid
 
 def data_trans_comp_rachas_week_previous_query_vboletos(TIME):
     """
-    Owner: Gabo Moreno
     Está función trae la data de ventas, para segmentos de restaurantes, para una ciudad en un rango de fecha determinado.
     
     Argumentos:
