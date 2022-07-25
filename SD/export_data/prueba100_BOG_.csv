@@ -1,0 +1,11 @@
+offer_name,offer_description,discount,automatically_consider_offer,start_date,end_date,max_uses_per_order,max_uses_per_customer,customer_segment_id,sku_id
+PRUEBA_100_PESOS_Coca_Cola_1.5lt_pe,,11,true,23-06-2022,30-06-2022,20,1,71401,227091
+PRUEBA_100_PESOS_Coca_Cola_3lt_pet_,,11,true,23-06-2022,30-06-2022,20,1,71404,227089
+PRUEBA_100_PESOS_Coca_Cola_250_ml_x,,11,true,23-06-2022,30-06-2022,20,1,71402,194393
+PRUEBA_100_PESOS_Coca_Cola_400_ml_x,,11,true,23-06-2022,30-06-2022,20,1,71403,194399
+PRUEBA_100_PESOS_Harina_Haz_de_Oros,,5,true,23-06-2022,30-06-2022,20,1,71405,147341
+piloto_PRUEBA_100_PESOS_Coca_Cola_1.5lt_pe,,11,true,23-06-2022,30-06-2022,20,1,71406,227091
+piloto_PRUEBA_100_PESOS_Coca_Cola_3lt_pet_,,11,true,23-06-2022,30-06-2022,20,1,71407,227089
+piloto_PRUEBA_100_PESOS_Coca_Cola_250_ml_x,,11,true,23-06-2022,30-06-2022,20,1,71408,194393
+piloto_PRUEBA_100_PESOS_Coca_Cola_400_ml_x,,11,true,23-06-2022,30-06-2022,20,1,71410,194399
+piloto_PRUEBA_100_PESOS_Harina_Haz_de_Oros,,5,true,23-06-2022,30-06-2022,20,1,71409,147341
