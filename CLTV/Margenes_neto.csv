@@ -1,81 +1,33 @@
 region_code,category,net_margin
-CMX,Frutas & Verduras,18.5
-CMX,Abarrotes,4.1
-CMX,"Carne, Pollo & Pescados",7.0
-CMX,Desechables,16.4
-CMX,Lácteos & Huevos,7.1
-CMX,Congelados,9.8
-CMX,Aseo e Higiene,7.8
-CMX,Bebidas,7.2
-GDL,Frutas & Verduras,10.3
-GDL,Abarrotes,2.4
-GDL,"Carne, Pollo & Pescados",5.0
-GDL,Desechables,8.6
-GDL,Lácteos & Huevos,5.2
-GDL,Congelados,13.1
-GDL,Aseo e Higiene,4.1
-GDL,Bebidas,7.6
-PBC,Frutas & Verduras,11.1
-PBC,Abarrotes,3.2
-PBC,"Carne, Pollo & Pescados",1.6
-PBC,Desechables,11.6
-PBC,Lácteos & Huevos,4.0
-PBC,Congelados,6.6
-PBC,Aseo e Higiene,4.8
-PBC,Bebidas,7.6
-BOG,Frutas & Verduras,20.7
-BOG,Abarrotes,7.6
-BOG,"Carne, Pollo & Pescados",8.1
-BOG,Desechables,10.3
-BOG,Lácteos & Huevos,7.4
-BOG,Congelados,18.9
-BOG,Aseo e Higiene,18.1
-BOG,Bebidas,6.4
-BAQ,Frutas & Verduras,11.9
-BAQ,Abarrotes,7.4
-BAQ,"Carne, Pollo & Pescados",8.0
-BAQ,Desechables,11.8
-BAQ,Lácteos & Huevos,6.1
-BAQ,Congelados,16.8
-BAQ,Aseo e Higiene,19.3
-BAQ,Bebidas,6.5
-MDE,Frutas & Verduras,3.1
-MDE,Abarrotes,5.3
-MDE,"Carne, Pollo & Pescados",0.0
-MDE,Desechables,8.6
-MDE,Lácteos & Huevos,1.0
-MDE,Congelados,0.0
-MDE,Aseo e Higiene,16.1
-MDE,Bebidas,6.8
-SPO,Frutas e Verduras,23.2
-SPO,Mercearia,9.4
-SPO,"Carnes, Aves e Peixes",9.6
-SPO,Descartáveis,28.4
-SPO,Laticínios e Ovos,7.8
-SPO,Congelados,18.4
-SPO,Limpeza e Higiene,17.3
-SPO,"Carnes, Aves e Peixes",10.4
-BHZ,Frutas e Verduras,22.4
-BHZ,Mercearia,8.4
-BHZ,"Carnes, Aves e Peixes",8.6
-BHZ,Descartáveis,26.4
-BHZ,Laticínios e Ovos,6.3
-BHZ,Congelados,14.9
-BHZ,Limpeza e Higiene,15.8
-BHZ,Bebidas,11.4
-CWB,Frutas e Verduras,23.4
-CWB,Mercearia,7.6
-CWB,"Carnes, Aves e Peixes",5.1
-CWB,Descartáveis,21.8
-CWB,Laticínios e Ovos,7.7
-CWB,Congelados,9.1
-CWB,Limpeza e Higiene,12.8
-CWB,Bebidas,12.1
-VCP,Frutas e Verduras,5.4
-VCP,Mercearia,5.2
-VCP,"Carnes, Aves e Peixes",7.0
-VCP,Descartáveis,21.8
-VCP,Laticínios e Ovos,6.4
-VCP,Congelados,0.0
-VCP,Limpeza e Higiene,19.4
-VCP,Bebidas,8.6
+SPO,Frutas e Verduras,18.3
+SPO,Mercearia,29.3
+SPO,"Carnes, Aves e Peixes",7.7
+SPO,Descartáveis,0.6
+SPO,Laticínios e Ovos,16.4
+SPO,Congelados,3.4
+SPO,Limpeza e Higiene,2.6
+SPO,Bebidas,14.6
+BHZ,Frutas e Verduras,15.9
+BHZ,Mercearia,23.3
+BHZ,"Carnes, Aves e Peixes",9
+BHZ,Descartáveis,0.6
+BHZ,Laticínios e Ovos,13.9
+BHZ,Congelados,6.3
+BHZ,Limpeza e Higiene,2.8
+BHZ,Bebidas,22.4
+CWB,Frutas e Verduras,17.5
+CWB,Mercearia,34.6
+CWB,"Carnes, Aves e Peixes",4.3
+CWB,Descartáveis,0.5
+CWB,Laticínios e Ovos,17
+CWB,Congelados,2.5
+CWB,Limpeza e Higiene,2.4
+CWB,Bebidas,14.8
+VCP,Frutas e Verduras,11.3
+VCP,Mercearia,29.3
+VCP,"Carnes, Aves e Peixes",8
+VCP,Descartáveis,0.8
+VCP,Laticínios e Ovos,18.1
+VCP,Congelados,2.4
+VCP,Limpeza e Higiene,2.2
+VCP,Bebidas,21.2
