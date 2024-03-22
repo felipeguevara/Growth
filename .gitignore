@@ -1,0 +1,7 @@
+# Object files, generates by csv
+.env
+*.pyc
+.env.swp
+.env.swo
+*.ipynb_checkpoints
+slack_notification_LOCAL.py
