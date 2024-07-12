@@ -5,3 +5,5 @@
 .env.swo
 *.ipynb_checkpoints
 slack_notification_LOCAL.py
+**/*.csv
+**/*.txt
